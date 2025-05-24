@@ -1,9 +1,9 @@
 // Banco de dados de países e bandeiras
 const countries = [
-    { name: "Brasil", flag: "brasil.png" },
-    { name: "Estados Unidos", flag: "eua.png" },
-    { name: "Canadá", flag: "canada.png" },
-    { name: "Japão", flag: "japao.png" },
+    { name: "Brasil", flag: brasil.png },
+    { name: "Estados Unidos", flag: eua.png },
+    { name: "Canadá", flag: canada.png },
+    { name: "Japão", flag: japao.png },
     // Adicione mais países aqui
 ];
 
