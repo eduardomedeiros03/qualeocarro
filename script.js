@@ -29,7 +29,7 @@ function nextQuestion() {
     currentCountry = countries[Math.floor(Math.random() * countries.length)];
     
     // Mostrar a bandeira
-    flagDisplay.innerHTML = `<img src="assets/flags/${currentCountry.flag}" alt="Bandeira">`;
+    flagDisplay.innerHTML = `<img src=${currentCountry.flag} alt="Bandeira">`;
     
     // Gerar opções de resposta
     const options = generateOptions(currentCountry);
